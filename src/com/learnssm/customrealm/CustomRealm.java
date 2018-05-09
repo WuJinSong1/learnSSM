@@ -76,7 +76,7 @@ public class CustomRealm extends AuthorizingRealm {
         simpleAuthorizationInfo.addStringPermissions(permissions);
         return simpleAuthorizationInfo;
     }
-
+//》》》》
     // 清除缓存
     public void clearCached() {
         PrincipalCollection principals = SecurityUtils.getSubject().getPrincipals();
